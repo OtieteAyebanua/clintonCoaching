@@ -1,10 +1,10 @@
-.VofC{
-    font-size: 28px;
-    font-family: poppins;
-    text-align: center;
-    padding-bottom: 5%;
-    color: #ff5c5c;
-    margin-top: 10%;
+.VofC {
+  font-size: 28px;
+  font-family: poppins;
+  text-align: center;
+  padding-bottom: 5%;
+  color: #ff5c5c;
+  margin-top: 10%;
 }
 .testimonial-container {
   width: 100%;
@@ -95,5 +95,40 @@
   }
   100% {
     transform: translateX(0%);
+  }
+}
+
+@media (max-width: 900px) {
+  .VofC {
+    font-size: clamp(10px, 4.5vw, 28px);
+  }
+  .testimonial-card {
+    min-width: clamp(55%,4vw,100%);
+    padding: clamp(10px,2vw,20px);
+
+  }
+  .testimonial-card2{
+    min-width: clamp(55%,4vw,100%);
+    padding: clamp(10px,2vw,20px);
+
+  }
+  .stars {
+    font-size: clamp(8px, 1vw, 16px);
+  }
+  .testimonial-text {
+    font-size: clamp(8px, 2vw, 14px);
+  }
+  .author-img {
+    width: clamp(20px, 4vw, 40px);
+    height: clamp(20px, 4vw, 40px);
+  }
+  .author-name {
+    font-size: clamp(8px, 2vw, 14px);
+  }
+  .author-title {
+    font-size: clamp(5px,2vw,12px);
+  }
+  .author{
+    margin: 0;
   }
 }

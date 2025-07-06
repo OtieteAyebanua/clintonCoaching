@@ -85,7 +85,7 @@ export const teachers = [
 ];
 const TeacherCard = () => {
   return (
-    <div style={{ width: "67%", margin: "auto" }}>
+    <div className="TMainCon" style={{ width: "67%", margin: "auto" }}>
       <p className="tutorListHeader">
         Get to know our expert team
         <FaStar style={{ width: 12, paddingLeft: 2, color: "#ff6363" }} />
