@@ -135,7 +135,7 @@ const TeacherCard = () => {
 
         <div className="cta-card">
           <h2>
-            Become an <br /> english teacher <br /> yourself !
+            Become an english teacher yourself !
           </h2>
           <p>
             Share your knowledge, live your passion and <br />

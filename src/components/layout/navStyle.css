@@ -106,9 +106,10 @@
     padding: 0;
     padding-left: 10px;
     padding-top: 15px;
+    width: 90%;
   }
   .navbar-logo{
-    font-size: clamp(10px,3vw,26px);
+    font-size: clamp(12px,4vw,26px);
   }
   .navbar-link{
     font-size: clamp(5px,3vw,16px);
