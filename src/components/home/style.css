@@ -79,7 +79,7 @@
   background-color: #ff4343;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 449px) {
   .hero-section{
     padding-bottom: clamp(0px,4vw,100px);
   }
@@ -89,5 +89,13 @@
   }
   .search-inout{
     flex-direction: column;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 900px) {
+  .hero-section{
+  }
+  .hero-section h1{
+    text-align: left;
   }
 }
